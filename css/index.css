@@ -1,0 +1,60 @@
+@charset 'UTF-8';
+
+/* body in the page */
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    font-weight: normal;
+}
+
+div#interface{
+    width: auto;
+    height: auto;
+    background-color: teal;
+}
+
+/* cabecaçalho */
+header#cabecalho{
+    width: auto;
+    height: 100px;
+    margin: -15px auto auto auto;
+    padding: auto;
+    background-color: aqua;
+}
+
+nav#menu{
+    margin: 0px;
+}
+
+section#sessao{
+    width: auto;
+    height: auto;
+    float: left;
+}
+
+aside#ctlateral{
+    width: 900px;
+    height: auto;
+    float:right;
+}
+
+
+div.conteudo{
+    width: 100%;
+    height: 100%;
+}
+
+/*footer set*/
+footer#rodape{
+    border-top: solid 2px rgba(0,0, 0,0.5);
+    clear: both;
+}
+
+footer#rodape p{
+    text-align: center;
+    font-weight: normal;
+    font-size:14pt;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
