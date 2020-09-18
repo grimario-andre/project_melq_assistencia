@@ -4,24 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <title>Melq Assistência Técnica</title>
 </head>
 
 <body>
     <!--Cabeçalho-->
-    <header id="cabecalho">
-        <nav id="menu">
-            <ul id="lista">
-                <li>contato:(13)98433-7438</li>
+    <h1 class="container"><img src="imagens/logo.jpg" alt="Melq Assistência Técnica"></h1>
+    <header class="container">
+        <nav class="menu-opcoes">
+            <ul>
+                <li><a href="" target="_self">Sobre</a></li>
+                <li><a href="" target="_self">Serviços</a></li>
+                <li><a href="" target="_self">Orçamentos</a></li>
+                <li><a href="" target="_self">Contato</a></li>
             </ul>
         </nav>
     </header>
 
     <!--Interface-->
-    <div id="interface">
-        <h1>Fazemos consertos em diversos aparelhos</h1>
-        <section id="sessao">
+        <div id="main" class="container">
+            <h2>História</h2>
+            <p>
+                Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker
+            </p>
+            <br> <br> 
+            <h2>Serviços</h2>
+            <p>
+                Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker
+            </p>
+        <section id="sessao" class="marginlateral">
             <figure class="fig-foto">
                 <img src="imagens/celulares.jpg" alt="celulares">
                 <figcaption>
@@ -30,7 +43,25 @@
             </figure>
         </section>
         
-        <aside id="ctlateral">
+        <aside id="ctlateral" class="marginlateral">
+            <figure class="fig-foto">
+                <img src="imagens/notebookes.jpg" alt="notebookes">
+                <figcaption>
+                    <h2>Raparos em notebookes</h2>
+                </figcaption>
+            </figure>
+        </aside>
+
+        <section id="sessao" class="marginlateral">
+            <figure class="fig-foto">
+                <img src="imagens/celulares.jpg" alt="celulares">
+                <figcaption>
+                    <h2>Raparos em celulares</h2>
+                </figcaption>
+            </figure>
+        </section>
+        
+        <aside id="ctlateral" class="marginlateral">
             <figure class="fig-foto">
                 <img src="imagens/notebookes.jpg" alt="notebookes">
                 <figcaption>
@@ -39,9 +70,8 @@
             </figure>
         </aside>
     </div>
-
     <!--Rodapé-->
-    <footer id="rodape">
+    <footer id="rodape" class="container">
         <p>&copy;&nbsp; Grimáiro André</p>
     </footer>
 </body>

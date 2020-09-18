@@ -6,25 +6,48 @@ body{
     padding: 0px;
     background-color: white;
     font-weight: normal;
+    width: auto;
+    height: auto;
 }
 
-div#interface{
-    width: auto;
-    height: 720px;
-    background-color: teal;
+
+.container{
+    margin: 0px auto;
+    width: 940px;
 }
 
 /* cabecaçalho */
-header#cabecalho{
-    width: auto;
-    height: 100px;
-    margin: -15px auto auto auto;
-    padding: auto;
-    background-color: aqua;
+header{
+    position: relative;
 }
 
-nav#menu{
-    margin: 0px;
+nav.menu-opcoes{
+   text-align: right;
+}
+
+nav.menu-opcoes ul{
+    font-size: 15pt;
+}
+
+nav.menu-opcoes ul li{
+    display: inline;
+    margin-left: 20px;
+}
+
+nav.menu-opcoes ul li a{
+    color: rgba(0, 238, 255, 0.8);
+}
+
+
+/*interface*/
+div#main{
+    border-top: solid 2px rgba(0,0, 0,0.5);
+    padding-top: 15px;
+    margin-top: 10px;
+}
+
+.marginlateral{
+    margin: 0px 30px;
 }
 
 section#sessao{
