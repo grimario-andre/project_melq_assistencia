@@ -42,19 +42,40 @@ nav.menu-opcoes ul li a{
 /*interface*/
 div#main{
     border-top: solid 2px rgba(0,0, 0,0.5);
-    padding-top: 15px;
     margin-top: 10px;
+    background-color: rgba(0, 238, 255, 0.8);
+}
+
+div#main h2{
+    margin: auto;
+    padding: 5px 10px;
+}
+
+div#main p{
+    color: #ffffff;
+    margin: auto;
+    padding: 5px 15px;
 }
 
 .marginlateral{
-    margin: 0px 30px;
+    margin: 20px auto;
 }
 
 section#sessao{
     width: auto;
     height: auto;
-    float: left;
+    text-align: center;
 }
+
+section#sessao ol{
+    margin: auto;
+}
+
+section#sessao li{
+    display: inline-block;
+    margin: 15px;
+}
+
 
 aside#ctlateral{
     width: auto;
@@ -62,21 +83,40 @@ aside#ctlateral{
     float:right;
 }
 
-figure.fig-foto{
+.fig-foto {
     display: block;
     position: relative;
     margin: auto;
     width: auto;
-    height: auto;
+    height: 236px;
+    border: 1px solid black;
 }
 
-figure figcaption{
-    margin: auto;
-}
-
-figure img{
+.fig-foto figcaption{
     width: 100%;
     height: 100%;
+    margin: auto;
+    position: absolute;
+    top: 0px;
+    color: rgba(0, 0, 0),0.5;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 1s;
+    background-color: #dddddd70;
+}
+
+.fig-foto figcaption:hover{
+    opacity: 1;
+}
+
+.fig-foto img{
+    width: 100%;
+    height: 100%;
+}
+
+.fig-foto h2{
+    text-align: left;
 }
 
 /*footer set*/
@@ -91,4 +131,5 @@ footer#rodape p{
     font-size:14pt;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
+    margin: 10px auto;
 }
